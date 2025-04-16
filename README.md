@@ -3,7 +3,6 @@
 Implementation of the **Quoridor board game** using C and ARM assembly for the **LandTiger NXP LPC1768** development board.
 
 ![Screenshot](./screenshots/Screenshot1.png)
-![Screenshot](./screenshots/Screenshot2.png)
 
 ## 🧠 Project Overview
 
@@ -43,3 +42,8 @@ Each player has a limited number of walls. The goal is to reach the opposite sid
 3. Use the board’s physical buttons to interact and play
 
 > Make sure the necessary drivers and LandTiger libraries are properly installed in your Keil environment.
+>
+
+## 📷 Screenshot
+
+![Emulator](./screenshots/Screenshot2.png)
