@@ -1,0 +1,238 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Roberto Zancana Politecnico di Torino Flex license: MDK Professional 5.36 (Flex) (mdk_pro) Operation stops: 10 Mar 2024
+ 
+Tool Versions:
+Toolchain:       MDK Professional 5.36 (Flex)  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DARMP1.DLL V1.27.0.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TARMP1.DLL V1.26.0.0
+ 
+<h2>Project:</h2>
+\\Mac\iCloud\Documents\ExtraPoint\sample.uvprojx
+Project File Date:  01/06/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling startup_LPC17xx.s...
+compiling core_cm3.c...
+compiling sample.c...
+game/game.h(55): warning:  #1295-D: Deprecated declaration quoridor - give arg types
+  void quoridor();			
+game/game.h(58): warning:  #1295-D: Deprecated declaration grid - give arg types
+  void grid();
+game/game.h(73): warning:  #1295-D: Deprecated declaration changePlayer - give arg types
+  void changePlayer();
+game/game.h(82): warning:  #1295-D: Deprecated declaration ChangeMode - give arg types
+  void ChangeMode();
+game/game.h(85): warning:  #1295-D: Deprecated declaration WallCount - give arg types
+  void WallCount();
+game/game.h(88): warning:  #1295-D: Deprecated declaration TimeCount - give arg types
+  void TimeCount();
+game/game.h(91): warning:  #1295-D: Deprecated declaration ResetTime - give arg types
+  void ResetTime();
+game/game.h(94): warning:  #1295-D: Deprecated declaration ClearMessage - give arg types
+  void ClearMessage();
+game/game.h(100): warning:  #1295-D: Deprecated declaration CheckFacing - give arg types
+  void CheckFacing();
+game/game.h(103): warning:  #1295-D: Deprecated declaration CheckWin - give arg types
+  bool CheckWin();
+game/game.h(109): warning:  #1295-D: Deprecated declaration CheckTrap - give arg types
+  bool CheckTrap();
+game/game.h(113): warning:  #1-D: last line of file ends without a newline
+  void ClearPossible();
+game/game.h(113): warning:  #1295-D: Deprecated declaration ClearPossible - give arg types
+  void ClearPossible();
+sample.c: 13 warnings, 0 errors
+compiling system_LPC17xx.c...
+compiling IRQ_timer.c...
+timer\../game/game.h(55): warning:  #1295-D: Deprecated declaration quoridor - give arg types
+  void quoridor();			
+timer\../game/game.h(58): warning:  #1295-D: Deprecated declaration grid - give arg types
+  void grid();
+timer\../game/game.h(73): warning:  #1295-D: Deprecated declaration changePlayer - give arg types
+  void changePlayer();
+timer\../game/game.h(82): warning:  #1295-D: Deprecated declaration ChangeMode - give arg types
+  void ChangeMode();
+timer\../game/game.h(85): warning:  #1295-D: Deprecated declaration WallCount - give arg types
+  void WallCount();
+timer\../game/game.h(88): warning:  #1295-D: Deprecated declaration TimeCount - give arg types
+  void TimeCount();
+timer\../game/game.h(91): warning:  #1295-D: Deprecated declaration ResetTime - give arg types
+  void ResetTime();
+timer\../game/game.h(94): warning:  #1295-D: Deprecated declaration ClearMessage - give arg types
+  void ClearMessage();
+timer\../game/game.h(100): warning:  #1295-D: Deprecated declaration CheckFacing - give arg types
+  void CheckFacing();
+timer\../game/game.h(103): warning:  #1295-D: Deprecated declaration CheckWin - give arg types
+  bool CheckWin();
+timer\../game/game.h(109): warning:  #1295-D: Deprecated declaration CheckTrap - give arg types
+  bool CheckTrap();
+timer\../game/game.h(113): warning:  #1-D: last line of file ends without a newline
+  void ClearPossible();
+timer\../game/game.h(113): warning:  #1295-D: Deprecated declaration ClearPossible - give arg types
+  void ClearPossible();
+timer\IRQ_timer.c: 13 warnings, 0 errors
+compiling AsciiLib.c...
+compiling lib_timer.c...
+compiling red_pawn.c...
+GLCD\red_pawn.c(7): warning:  #177-D: variable "RED_PAWN_pixel_data"  was declared but never referenced
+  static const unsigned char RED_PAWN_pixel_data[24 * 24 * 2 + 1] =
+GLCD\red_pawn.c: 1 warning, 0 errors
+compiling white_pawn.c...
+GLCD\white_pawn.c(7): warning:  #177-D: variable "WHITE_PAWN_pixel_data"  was declared but never referenced
+  static const unsigned char WHITE_PAWN_pixel_data[24 * 24 * 2 + 1] =
+GLCD\white_pawn.c: 1 warning, 0 errors
+compiling funct_joystick.c...
+compiling TouchPanel.c...
+compiling HzLib.c...
+compiling lib_joystick.c...
+compiling IRQ_RIT.c...
+RIT\../game/game.h(55): warning:  #1295-D: Deprecated declaration quoridor - give arg types
+  void quoridor();			
+RIT\../game/game.h(58): warning:  #1295-D: Deprecated declaration grid - give arg types
+  void grid();
+RIT\../game/game.h(73): warning:  #1295-D: Deprecated declaration changePlayer - give arg types
+  void changePlayer();
+RIT\../game/game.h(82): warning:  #1295-D: Deprecated declaration ChangeMode - give arg types
+  void ChangeMode();
+RIT\../game/game.h(85): warning:  #1295-D: Deprecated declaration WallCount - give arg types
+  void WallCount();
+RIT\../game/game.h(88): warning:  #1295-D: Deprecated declaration TimeCount - give arg types
+  void TimeCount();
+RIT\../game/game.h(91): warning:  #1295-D: Deprecated declaration ResetTime - give arg types
+  void ResetTime();
+RIT\../game/game.h(94): warning:  #1295-D: Deprecated declaration ClearMessage - give arg types
+  void ClearMessage();
+RIT\../game/game.h(100): warning:  #1295-D: Deprecated declaration CheckFacing - give arg types
+  void CheckFacing();
+RIT\../game/game.h(103): warning:  #1295-D: Deprecated declaration CheckWin - give arg types
+  bool CheckWin();
+RIT\../game/game.h(109): warning:  #1295-D: Deprecated declaration CheckTrap - give arg types
+  bool CheckTrap();
+RIT\../game/game.h(113): warning:  #1-D: last line of file ends without a newline
+  void ClearPossible();
+RIT\../game/game.h(113): warning:  #1295-D: Deprecated declaration ClearPossible - give arg types
+  void ClearPossible();
+RIT\IRQ_RIT.c(38): warning:  #177-D: variable "position"  was declared but never referenced
+  	static int position=0;	
+RIT\IRQ_RIT.c: 14 warnings, 0 errors
+compiling lib_RIT.c...
+compiling IRQ_button.c...
+compiling lib_button.c...
+compiling game.c...
+game\game.h(55): warning:  #1295-D: Deprecated declaration quoridor - give arg types
+  void quoridor();			
+game\game.h(58): warning:  #1295-D: Deprecated declaration grid - give arg types
+  void grid();
+game\game.h(73): warning:  #1295-D: Deprecated declaration changePlayer - give arg types
+  void changePlayer();
+game\game.h(82): warning:  #1295-D: Deprecated declaration ChangeMode - give arg types
+  void ChangeMode();
+game\game.h(85): warning:  #1295-D: Deprecated declaration WallCount - give arg types
+  void WallCount();
+game\game.h(88): warning:  #1295-D: Deprecated declaration TimeCount - give arg types
+  void TimeCount();
+game\game.h(91): warning:  #1295-D: Deprecated declaration ResetTime - give arg types
+  void ResetTime();
+game\game.h(94): warning:  #1295-D: Deprecated declaration ClearMessage - give arg types
+  void ClearMessage();
+game\game.h(100): warning:  #1295-D: Deprecated declaration CheckFacing - give arg types
+  void CheckFacing();
+game\game.h(103): warning:  #1295-D: Deprecated declaration CheckWin - give arg types
+  bool CheckWin();
+game\game.h(109): warning:  #1295-D: Deprecated declaration CheckTrap - give arg types
+  bool CheckTrap();
+game\game.h(113): warning:  #1-D: last line of file ends without a newline
+  void ClearPossible();
+game\game.h(113): warning:  #1295-D: Deprecated declaration ClearPossible - give arg types
+  void ClearPossible();
+game\game.c(54): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(count, "%d", activePlayer->walls);
+game\game.c(67): warning:  #223-D: function "sprintf" declared implicitly
+  	sprintf(count, "%d", time);
+game\game.c(117): warning:  #111-D: statement is unreachable
+  			break;
+game\game.c(145): warning:  #111-D: statement is unreachable
+  			break;
+game\game.c(173): warning:  #111-D: statement is unreachable
+  			break;
+game\game.c(201): warning:  #111-D: statement is unreachable
+  			break;
+game\game.c(207): warning:  #940-D: missing return statement at end of non-void function "ValidMove" 
+  }
+game\game.c(89): warning:  #550-D: variable "prova"  was set but never used
+  	bool prova;
+game\game.c(468): warning:  #1-D: last line of file ends without a newline
+  }
+game\game.c: 22 warnings, 0 errors
+compiling GLCD.c...
+GLCD\../game/game.h(55): warning:  #1295-D: Deprecated declaration quoridor - give arg types
+  void quoridor();			
+GLCD\../game/game.h(58): warning:  #1295-D: Deprecated declaration grid - give arg types
+  void grid();
+GLCD\../game/game.h(73): warning:  #1295-D: Deprecated declaration changePlayer - give arg types
+  void changePlayer();
+GLCD\../game/game.h(82): warning:  #1295-D: Deprecated declaration ChangeMode - give arg types
+  void ChangeMode();
+GLCD\../game/game.h(85): warning:  #1295-D: Deprecated declaration WallCount - give arg types
+  void WallCount();
+GLCD\../game/game.h(88): warning:  #1295-D: Deprecated declaration TimeCount - give arg types
+  void TimeCount();
+GLCD\../game/game.h(91): warning:  #1295-D: Deprecated declaration ResetTime - give arg types
+  void ResetTime();
+GLCD\../game/game.h(94): warning:  #1295-D: Deprecated declaration ClearMessage - give arg types
+  void ClearMessage();
+GLCD\../game/game.h(100): warning:  #1295-D: Deprecated declaration CheckFacing - give arg types
+  void CheckFacing();
+GLCD\../game/game.h(103): warning:  #1295-D: Deprecated declaration CheckWin - give arg types
+  bool CheckWin();
+GLCD\../game/game.h(109): warning:  #1295-D: Deprecated declaration CheckTrap - give arg types
+  bool CheckTrap();
+GLCD\../game/game.h(113): warning:  #1-D: last line of file ends without a newline
+  void ClearPossible();
+GLCD\../game/game.h(113): warning:  #1295-D: Deprecated declaration ClearPossible - give arg types
+  void ClearPossible();
+GLCD\GLCD.c: 13 warnings, 0 errors
+linking...
+Program Size: Code=30616 RO-data=4080 RW-data=76 ZI-data=876  
+".\sample.axf" - 0 Error(s), 77 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.LPC1700_DFP.2.7.1.pack
+                Keil.LPC1700_DFP.2.7.1
+                NXP LPC1700 Series Device Support, Drivers and Examples for MCB1700 and LPC1788-32
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\maldimeriggio\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\maldimeriggio\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+Build Time Elapsed:  00:00:03
+</pre>
+</body>
+</html>
