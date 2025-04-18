@@ -6,7 +6,7 @@ Implementation of the **Quoridor board game** using C and ARM assembly for the *
 
 ## 🧠 Project Overview
 
-This project is a full implementation of the Quoridor strategy game, built for an embedded system based on the **LandTiger v1.2.3** board featuring an **NXP LPC1768 (ARM Cortex-M3)** microcontroller.
+This project is a full implementation of the Quoridor strategy game, built for an embedded system based on the **LandTiger** development board featuring an **NXP LPC1768 (ARM Cortex-M3)** microcontroller.
 This project was developed as part of the Computer Architecture course.
 
 The game was developed and tested using:
